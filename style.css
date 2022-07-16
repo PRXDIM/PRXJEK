@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+body{
+	background-color: #f2d5d5b3;
+	color: #black;
+
+	font: normal 18px 'Cinzel', serif ;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #b83d3dc6;
+}
+
+a:active{
+	color: #fc0000c6;
+}
+
+/*
+a:visited{
+	color: grey;
+}*/
+
+.container{
+	max-width: 750px;
+	margin: auto;
+	padding-top: 30px;
+}
+
+.Ava{
+	width: 300px;
+	border-radius: 150px;
+	box-shadow: 9px 9px 14px rgb(0, 0, 0) ;
+}
+
+.block_1{
+	margin-bottom: 30px;
+	display: flex;
+}
+
+@media(max-width: 700px){
+	.block_1{
+		text-align: center;
+		display: block;
+	}
+}
+
+.block-text{
+	margin-left: 40px;
+
+}
+
+.block-text h4{
+	margin-bottom: 10px;
+}
+
+.block_1 p{
+	color: #876760fa;
+	margin: 0;
+	font-style: italic;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.block_2{
+	padding-left: 70px;
+	border: 1px ;
+	margin: 5px;
+}
+
+.one{
+	background: #fff9dc;
+	box-shadow: 4px 4px 10px rgb(0, 0, 0) ;
+	width: 800px;
+}
+
+.two{
+	background: #e5ffe7;
+	box-shadow: 4px 4px 10px rgb(0, 0, 0);
+	width: 800px;
+}
+
+.three{
+	background: #ffb8b8;
+	box-shadow: 4px 4px 10px rgb(0, 0, 0);
+	width: 800px;
+}
+
+.card{
+	padding: 15px 20px;
+	margin-bottom: 20px;
+	border-radius: 20px ;
+}
+
+.card h2{
+	margin-bottom: 10px;
+}
+
+.spisok{
+	padding: 0px 20px;
+}
+
+.spisok li{
+	color: #525252;
+	margin-bottom: 5px;
+}
+
+.table{
+	width: 100%;
+}
+
+table td{
+	padding-bottom: 20px;
+}
+
+.table td:nth-child(1), .table td:nth-child(2), 
+.table td:nth-child(3), .table td:nth-child(4){
+	color: #694b4d ;
+}
+
+.list{
+	padding: 0px;
+	list-style: none;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #a3a3a3;
+}
+
+.contact h2{
+	text-align: center;
+}
+
+.form-group label{
+	display: block;
+	font-size: 18px;
+	color: #694b4d ;
+}
+
+.form-group input, .form-group textarea{
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #a3a3a3;
+	color: black;
+	padding: 13px 0px 10px;	
+	outline: none;
+	font-family: 'Cinzel', serif ;
+	font-size: 15px;
+}
+
+.row{
+	display: flex;
+	margin-bottom: 20px ;
+}
+
+.row > .form-group{
+	width: 50%;
+	margin-right: 20px;
+}
+
+.row .form-group:last-child{
+	margin-right: 0px;
+}
+
+.btn{
+	background: black;
+	color: #fff;
+	padding: 15px 35px;
+	border: none;
+	font-family: 'Cinzel', serif  ;
+	cursor: pointer;
+	position: absolute;
+	margin-left: 300px ;
+
+
+}
+
+.btn:hover{
+	opacity: 0.8;
+}
